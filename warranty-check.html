@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Warranty</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+      }
+      .page-container {
+        text-align: center;
+        width: 50%;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      h1 {
+        color: #2c3e50;
+      }
+      p,
+      label {
+        color: #34495e;
+      }
+      input {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .submit-button {
+        background: #17a2b8;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 1rem;
+      }
+      .submit-button:hover {
+        background: #138496;
+      }
+      .back-button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .back-button:hover {
+        background: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-container">
+      <h1>Check Warranty</h1>
+      <p>Enter your watch serial number to check the warranty status:</p>
+      <form>
+        <label for="serial">Serial Number:</label>
+        <input type="text" id="serial" name="serial_number" required />
+        <button type="submit" class="submit-button">Check Warranty</button>
+      </form>
+      <button onclick="location.href='customer.html'" class="back-button">
+        Back to Services
+      </button>
+    </div>
+  </body>
+</html>

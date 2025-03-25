@@ -157,10 +157,6 @@ nav a,
 }
 /* Main Section */
 main {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   background-color: #c2bebe;
   padding: 2rem; /* Added padding for better spacing */
 }

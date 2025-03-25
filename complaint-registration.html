@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complaint Registration</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #f3f3f3, #c3e6cb);
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+      }
+      .page-container {
+        text-align: center;
+        width: 50%;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      h1 {
+        color: #2c3e50;
+      }
+      p,
+      label {
+        color: #34495e;
+      }
+      .form-group {
+        margin-bottom: 15px;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .submit-button {
+        background: #dc3545;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .submit-button:hover {
+        background: #c82333;
+      }
+      .back-button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .back-button:hover {
+        background: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-container">
+      <h1>Complaint Registration</h1>
+      <p>Submit your complaint below:</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="complaint">Complaint:</label>
+          <textarea
+            id="complaint"
+            name="complaint"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="submit-button">Submit Complaint</button>
+      </form>
+      <button onclick="location.href='customer.html'" class="back-button">
+        Back to Services
+      </button>
+    </div>
+  </body>
+</html>
