@@ -218,7 +218,7 @@
       <div class="top-nav">
         <div class="left-nav">
           <a href="india.html">INDIA</a>
-          <a href="customer.html">CUSTOMER CARE</a>
+          <a href="./customer1.html">CUSTOMER CARE</a>
         </div>
         <div class="center-logo">
           <img src="./uploads/home/logo.jpg" alt="PARA" class="logo" />
