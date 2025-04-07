@@ -79,7 +79,7 @@ async function signup(event) {
     alert("Sign-up successful! Check your email for confirmation.");
   }
 }
-
+/* 
 // **Sign In with Google**
 async function signInWithGoogle() {
   const { error } = await supabase.auth.signInWithOAuth({
@@ -107,7 +107,7 @@ async function signInWithGithub() {
     window.location.href = "home.html";
   }
 }
-
+ */
 // **Check if User is Authenticated**
 async function checkAuth() {
   const { data } = await supabase.auth.getSession();
