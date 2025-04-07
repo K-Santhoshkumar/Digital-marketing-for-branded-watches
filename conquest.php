@@ -148,7 +148,7 @@
 
       .popup-card img {
         width: 100%; /* Ensures it stretches fully */
-        height: auto; /* Maintains aspect ratio */
+        height: 100%; /* Maintains aspect ratio */
         object-fit: contain; /* Fits image without cropping */
         border-radius: 5px;
       }
